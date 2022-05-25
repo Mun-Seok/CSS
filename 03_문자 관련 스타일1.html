@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문자 관련 스타일1</title>
+</head>
+<body>
+    <div>
+        <h1>문자 관련 스타일</h1>
+        <ol>
+            <li>
+                <h2>font-size : 글자크기 조정</h2>
+                <p>단위 : px, %, em, rem</p>
+                <p>em은 부모요소의 사이즈를 기준으로 곱하기로 생각하면 된다.</p>
+                <p><a href="https://brunch.co.kr/@jihoonleeh9l6/32">em, rem 더 알아보기</a></p>
+                <!-- 예시 -->
+                <p style="font-size: 20px;">
+                    <span style="font-size: 1.5em;">휴대폰 UI/UX 기획자</span>
+                    휴대폰의 편리한 사용자 인터페이스를 제공하기 위하여 사용자의 요구 사항을 분석한다. 하드위어 특성을 고려한 UI/UX의 기능을 분석하여 UI/UX 디자인을 검토한다.
+                </p>
+            </li>
+            <!-- font-size -->
+            <li>
+                <h2>font-family : 글자체 조정</h2>
+                <p>font-family:dotum;→ 영문 글자체 이름을 쓸 경우에는 속성값에 영문 글자체명을 적어주면 된다.</p>
+                <p>font-family:'돋움';→ 한글 글자체 이름을 쓸 경우에는 속성값에 작은 따옴표 ''안에 한글 글자체명을 적어주면 된다.</p>
+                <!-- 예시 -->
+                <p style="font-size: 20px; font-family: '궁서';">
+                    <span style="font-size: 1.5em; font-family: '맑은고딕';">휴대폰 UI/UX 기획자</span>
+                    휴대폰의 편리한 사용자 인터페이스를 제공하기 위하여 사용자의 요구 사항을 분석한다. 하드위어 특성을 고려한 UI/UX의 기능을 분석하여 UI/UX 디자인을 검토한다.
+                </p>
+            </li>
+            <!-- font-family -->
+            <li>
+                <h2>font-weight : 글자 두께 조정</h2>
+                <p>속성값 : normal, bold, bolder, lighter 별도의 단위 사용 없이 숫자 100부터 100단위로 900까지 쓸 수 있다. normal이 400정도, 그 이상은 bold, 그 이하는 lighter이라고 생각하면 된다.</p>
+                <!-- 예시 -->
+                <p style="font-size: 20px; font-weight: bold;">
+                    <span style="font-size: 1.5em; font-weight: 400;">휴대폰 UI/UX 기획자</span>
+                    휴대폰의 편리한 사용자 인터페이스를 제공하기 위하여 사용자의 요구 사항을 분석한다. 하드위어 특성을 고려한 UI/UX의 기능을 분석하여 UI/UX 디자인을 검토한다.
+                </p>
+            </li>
+            <!-- font-weight -->
+            <li>
+                <h2>line-height : 행간 (줄과 줄 사이 간격)조정</h2>
+                <p>단위 : px, %, em</p>
+                <p>글자 크기가 클수록 더 크게 줘야한다. 글자 크기보다 작으면 글자가 겹치는 현상이 생긴다.</p>
+                <p>통상적으로 작성되는 행간은 1.4~1.6em정도가 적절하다고 생각함</p>
+                <p>줄이 1줄인 경우에는 행간 값이 하단 높이값으로 된다. 그래서 글자가 1줄만 있을때에는 높이값 없이 line-height값을 높이값으로 주면 가로 가운데 정렬이 이루어진다.</p>
+                <!-- 예시 -->
+                <p style="line-height: 1.6em;">
+                    <span style="line-height: 1.5em;">휴대폰 UI/UX 기획자</span>
+                    휴대폰의 편리한 사용자 인터페이스를 제공하기 위하여 사용자의 요구 사항을 분석한다. 하드위어 특성을 고려한 UI/UX의 기능을 분석하여 UI/UX 디자인을 검토한다.
+                </p>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
